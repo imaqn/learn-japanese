@@ -1,0 +1,52 @@
+<!-- halaman utama -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>L Nihongo</title>
+</head>
+<body>
+    <!-- Navigasi -->
+    <div class="navbar-fixed">
+        <nav class="red darken-3" role="navigation">
+            <div class="nav-wrapper container ">
+                <a href="#" class="brand-logo" id="logo-container"><img src="icon-home.png" alt="L Nihongo" width="160vw" height="auto"></a>
+                <a href="#" class="sidenav-trigger white-text" data-target="nav-mobile">☰</a>
+          
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav red darken-3" id="nav-mobile"></ul>
+    <main>
+        <div id="body-content"></div> <!-- page akan di-inject ke sini -->
+    </main>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type = "text/javascript"  
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>   
+    <script src="js/nav.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/db-com.js"></script>
+    <script src="js/display-db-com.js"></script>
+</body>
+<footer class="page-footer red darken-4" style="bottom:0;left:0;width:100%;">
+    <div class="row">
+        <div class="container center">
+            <h6>Hope you enjoy the learning!</h6>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2020 Final Project
+        </div>
+    </div>
+</footer>
+</html>

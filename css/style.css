@@ -1,0 +1,73 @@
+#landing{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../icon-home-jumbotron.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#mainText {
+    margin-top: 30vh;
+    margin-left: 10vw;
+    color: white;
+}
+#secText{
+    margin-left: 10vw;
+    color: white;
+}
+#getStart{
+    margin-left: 10vw;
+}
+
+.row .col.l4 {
+    padding: 0 3% 3% 3%;
+}
+#feature, #aboutUs{
+    padding-top: 3%;
+}
+#featureText, #aboutUsText{
+    line-height: 48px;
+}
+#featureText .card-title, #aboutUsText .card-title{
+    font-size: 15px;
+}
+#aboutUs{
+    margin: 0 24px;
+}
+#login, #signup{
+    margin-top: 12vh;
+}
+#signUpImage, #logInImage{
+    margin-top: 12vh;
+}
+@media only screen and (max-width: 600px) {
+    #signUpImage, #logInImage{
+        margin-top: 0;
+        width: 250px;
+        height: 250px;
+    }
+    #login, #signup{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+}
+footer{
+    margin-top: -4vh;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+#toast-container {
+    min-width: 10%;
+    top: 70%;
+    right: 50%;
+    transform: translateX(50%) translateY(50%);
+}
+.QuizButton{
+    margin: 2%;
+}
